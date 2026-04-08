@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: #8da9b0;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #dfeff2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.button-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}

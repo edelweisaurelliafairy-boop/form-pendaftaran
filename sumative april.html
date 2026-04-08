@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="sumative april.css">
+	<script src="sumative.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Pendaftaran</h2>
+
+    <label>Nama:</label>
+    <input type="text" id="nama">
+
+    <label>Kelas:</label>
+    <input type="text" id="kelas">
+
+    <label>Umur:</label><br>
+    <input type="checkbox" name="umur" value="10-12"> 10-12<br>
+    <input type="checkbox" name="umur" value="13-15"> 13-15<br>
+    <input type="checkbox" name="umur" value="16-17"> 16-17<br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" name="j.k" value="Laki-laki"> Laki-laki<br>
+    <input type="radio" name="j.k" value="Perempuan"> Perempuan<br>
+
+    <label>Tingkatan:</label><br>
+    <input type="radio" name="tingkat" value="SD"> SD<br>
+    <input type="radio" name="tingkat" value="SMP"> SMP<br>
+    <input type="radio" name="tingkat" value="SMA"> SMA<br>
+	<button onclick="tampilData()">OK</button>
+    <button onclick="resetForm()">Clear</button>
+
+    <div id="output"></div>
+</div>
+
+	
+</div>
+</body>
+</html>
